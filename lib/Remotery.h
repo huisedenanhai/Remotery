@@ -607,6 +607,7 @@ extern "C" {
 #endif
 
 RMT_API rmtSettings* _rmt_Settings( void );
+RMT_API void _rmt_DefaultSettings(rmtSettings* settings);
 RMT_API enum rmtError _rmt_CreateGlobalInstance(Remotery** remotery);
 RMT_API void _rmt_DestroyGlobalInstance(Remotery* remotery);
 RMT_API void _rmt_SetGlobalInstance(Remotery* remotery);
