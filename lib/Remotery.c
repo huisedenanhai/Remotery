@@ -7233,9 +7233,6 @@ static void MetalSample_Destructor(MetalSample* sample)
 }
 
 
-static void UpdateOpenGLFrame(void);
-
-
 /*RMT_API void _rmt_UnbindMetal(void)
 {
     if (g_Remotery != NULL)
